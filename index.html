@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floricultura</title>
+    <link rel="stylesheet" href="./ib/bootstrap.min.css">
+<style>
+    .nav-nav .nav-link.active {
+        color: #fff;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    section {
+        height: 100vh;
+        background-color: #53a9e2;
+        padding: 120px;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: #f0eeee;
+    }
+
+
+</style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Floricultura</h1>
+            <nav class="collapse navbar-collapse justify-content-end">
+                <ul class=" nav navbar-nav nav-pills ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arranjo"> Arranjo de flores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#orquidea">Orquídeas</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h1>Início</h1>
+            <div class="background">
+                <div id="carousel-exemplo" class="container carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./imagens/arranjo.webp">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./imagens/seu pedido.webp">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#carousel-exemplo" data-bs-slide="prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#carousel-exemplo" data-bs-slide="next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    </div>
+                </div>
+            </div>
+        <section id="arranjo">
+            <h1>Arranjo de flores</h1>
+            <div class="container p-5 width">
+                                <div class="row gap-4 gap-md-0">
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/cards/Arranjo Livia.webp" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Arranjo Livia</h4>
+                                <h5 class="card-subtitle"><strong>Flores</strong> R$138,00</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="imagens/cards/Arranjo Andréa.webp" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Arranjo Andréa</h4>
+                                <h5 class="card-subtitle"><strong>Flores</strong> R$268,00</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/cards/Arranjo Antonia.webp" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Arranjo Antonia</h4>
+                                <h5 class="card-subtitle"><strong>Flores</strong> R$278,00</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                  
+                   
+        </section>
+        <section id="orquidea">
+            <h1>Orquídeas</h1>
+            <div class="container p-5 width">
+                <div class="row gap-4 gap-md-0">
+    <div class="col-md-6 col-lg-4 col-sm-12">
+        <div class="card text-bg-dark">
+            <img src="./imagens/cards/Orquídea Phalaenopsis Rosa.webp" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Orquídea Phalaenopsis Rosa</h4>
+                <h5 class="card-subtitle"><strong>Orquídeas</strong> R$178,00</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-sm-12">
+        <div class="card text-bg-dark">
+            <img src="./imagens/cards/Orquídea Phalaenopsis Pink.webp" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Orquídea Phalaenopsis Pink </h4>
+                <h5 class="card-subtitle"><strong>Orquídeas</strong> R$368,00</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-sm-12">
+        <div class="card text-bg-dark">
+            <img src="./imagens/cards/Orquídea Phalaenopsis Branca.webp" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Orquídea Phalaenopsis Branca </h4>
+                <h5 class="card-subtitle"><strong>Orquídeas</strong> R$778,00</h5>
+            </div>
+        </div>
+        </section>
+    </div>
+    <script src="./ib/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
